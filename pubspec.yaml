@@ -1,0 +1,18 @@
+name: anime_app
+description: Anime streaming UI with offline downloads.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.0        # مشغل الفيديو
+  dio: ^5.4.0                 # التحميل مع نسبة التقدم
+  path_provider: ^2.1.0       # مسار التخزين المحلي
+  shared_preferences: ^2.2.0  # حفظ قائمة التحميلات
+
+flutter:
+  uses-material-design: true
